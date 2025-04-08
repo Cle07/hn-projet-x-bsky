@@ -30,24 +30,26 @@ uv sync
 
 - clean.ipynb
 
-Contiendra le script de nettoyage des données
+Contient le script permettant, à partir du repo du dataset de X, d'en extraire 2 DataFrame au format .parquet (pour prendre moins de place). Les deux DataFrame contiennent les données au format attendu par la BDD, en retirant les tweets non-français, les valeurs manquantes, et les retweets. Chaque ligne du DataFrame des post contient un user_id qui permet d'identifier l'auteur dans x_user.parquet.
 
 - explo.ipynb
 
-Permet de comprendre la structure des données de X et la BDD
+Permet de comprendre la structure de base des données de X et la BDD
 
 # A faire
 
 - bsky_scrap.py / .ipynb
 
-Script pour récuperer des données BlueSky sur la même période
+Script pour récuperer des données BlueSky sur la même période.
 
-- La base de données MySQL (dans db.py ?)
+- La base de données MySQL
+
+Faire un script python ou passer directement par MySQL?
 
 - analyse.ipynb
 
-Pour l'analyse statistique sur l'échantillon finale de la BDD
+Pour l'analyse statistique sur l'échantillon finale de la BDD.
 
 - Présentation des données sur le site
 
-Utilisant surement plotly pour intégrer des graphiques dans wordpress
+Utilisant surement plotly pour intégrer des graphiques dans wordpress.
