@@ -14,7 +14,7 @@ Permet de comprendre la structure des données de X et la BDD
 
 Script pour récuperer des données BlueSky sur la même période
 
-- La base de données MySQL
+- La base de données MySQL (dans db.py ?)
 
 - analyse.ipynb
 
