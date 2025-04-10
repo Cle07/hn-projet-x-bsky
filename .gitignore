@@ -1,3 +1,4 @@
 # Ignore all content in the data folder
 .venv
 .ruff_cache
+bsky_credentials.json
