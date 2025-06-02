@@ -454,6 +454,7 @@ dependencies = [
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "matplotlib-inline" },
+    { name = "mysql-connector" },
     { name = "nbformat" },
     { name = "openai" },
     { name = "pandas" },
@@ -463,7 +464,6 @@ dependencies = [
     { name = "pyarrow" },
     { name = "rich" },
     { name = "sentence-transformers" },
-    { name = "torch" },
     { name = "tqdm" },
     { name = "vadersentiment-fr" },
 ]
@@ -479,6 +479,7 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.10.1" },
     { name = "matplotlib-inline", specifier = ">=0.1.7" },
+    { name = "mysql-connector", specifier = ">=2.2.9" },
     { name = "nbformat", specifier = ">=5.10.4" },
     { name = "openai", specifier = ">=1.78.1" },
     { name = "pandas", specifier = ">=2.2.3" },
@@ -488,7 +489,6 @@ requires-dist = [
     { name = "pyarrow", specifier = ">=19.0.1" },
     { name = "rich", specifier = ">=14.0.0" },
     { name = "sentence-transformers", specifier = ">=4.1.0" },
-    { name = "torch", specifier = ">=2.6.0" },
     { name = "tqdm", specifier = ">=4.67.1" },
     { name = "vadersentiment-fr", specifier = ">=1.3.4" },
 ]
@@ -1281,6 +1281,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc721143
 wheels = [
     { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198 },
 ]
+
+[[package]]
+name = "mysql-connector"
+version = "2.2.9"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/28/04/e40098f3730e75bbe36a338926f566ea803550a34fb50535499f4fc4787a/mysql-connector-2.2.9.tar.gz", hash = "sha256:1733e6ce52a049243de3264f1fbc22a852cb35458c4ad739ba88189285efdf32", size = 11852649 }
 
 [[package]]
 name = "narwhals"

@@ -2,3 +2,6 @@
 .venv
 .ruff_cache
 bsky_credentials.json
+temp.py
+test_dump.py
+social_analytics_20250602.sql
